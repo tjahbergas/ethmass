@@ -1,0 +1,29 @@
+{
+  "name": "@tjahbergas/ethmass",
+  "version": "2.3.2",
+  "description": "Website Tiktok Downloader API.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tjahbergas/ethmass"
+  },
+  "keywords": [],
+  "author": "Tio",
+  "license": "MIT",
+  "dependencies": {
+    "@figoridwan/tiktokdownload-test": "^1.0.1",
+    "@tjahbergas/idcloudserv": "^0.1.2",
+    "@tjahbergas/tiktokapi-src": "^1.0.2",
+    "@tjahbergas/tiktokscrape": "^2.3.2",
+    "projek-reels": "^1.0.3",
+    "tea-oss-asmarasepikoe": "^0.0.2",
+    "tiktok-src": "^1.0.1",
+    "tiktokapi-src": "^1.0.4"
+  }
+}
